@@ -38,8 +38,8 @@ import matplotlib as mpl
 freq=2.0
 #################################################################################################################################################
 #Mesh
-csx, ncx, npadx = 15, 16, 2
-csz, ncz, npadz = 15, 16, 2
+csx, ncx, npadx = 10, 16, 2
+csz, ncz, npadz = 10, 16, 2
 hx = utils.meshTensor([(csx,npadx,-1.3),(csx, ncx), (csx, npadx, 1.3)])
 hz = utils.meshTensor([(csz, npadz, -1.3), (csz, ncz), (csz, npadz, 1.3)])
 # define the Tensor mesh
